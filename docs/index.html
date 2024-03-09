@@ -24,18 +24,7 @@
 	<body>
 		<div id="app">Please wait...</div>
 
-		<!-- Markdown Mermaid -->
-		<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.css" />
-		<script src="//cdn.jsdelivr.net/npm/mermaid@9.4.3/dist/mermaid.min.js"></script>
-
 		<script>
-			// Mermaid Plugin initialization
-			var num = 0;
-			mermaid.initialize({
-				startOnLoad: false,
-				theme: "dark",
-			});
-
 			// Docsify Configuration
 			window.$docsify = {
 				name: "Omega's Unreal Tips",
@@ -93,5 +82,19 @@
 
 		<!-- PrismJS theme -->
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs/themes/prism-tomorrow.min.css" />
+
+		<!-- MermaidJS -->
+		<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.css" />
+		<script src="//cdn.jsdelivr.net/npm/mermaid@9.4.3/dist/mermaid.min.js"></script>
+		<script>
+			// Mermaid Plugin initialization
+			var num = 0;
+			document.addEventListener("DOMContentLoaded", function () {
+				mermaid.initialize({
+					startOnLoad: false,
+					theme: "dark",
+				});
+			});
+		</script>
 	</body>
 </html>
