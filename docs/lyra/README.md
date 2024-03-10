@@ -1,6 +1,6 @@
 # Lyra Sample Game
 
-![Header](LyraBannerImage.png)
+![Header](LyraBannerImage.jpg)
 
 ## What is Lyra?
 
@@ -23,3 +23,14 @@
 ### Discord
 
 [Lyra Dev Network](https://discord.gg/RS99Jcur6q)
+
+## Getting Started
+
+### Lyra Instalation
+
+You can download the Lyra Game Sample from the Epic Games Launcher, by clicking the Samples tab and navigating to Lyra Game Sample, or by clicking on the Marketplace tab and typing "Lyra" into the Search field.
+[Lyra Sample Game on Epic Marketplace](https://www.unrealengine.com/marketplace/en-US/product/lyra)
+
+### Next steps <!-- {docsify-ignore} -->
+
+After installing Lyra, start by creating a new [Game Feature Plugin](/lyra/game-feature-plugin).

@@ -1,2 +1,4 @@
 - [Home](README)
-- [Lyra](/lyra/)
+- [Lyra](/lyra/ "Lyra Sample Game")
+- - [Game Feature Plugin](/lyra/game-feature-plugin)
+- - [New Map](/lyra/lyra-new-map "Lyra - Creating a New Map")
