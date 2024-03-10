@@ -44,7 +44,7 @@
 
 				search: "auto", // default
 
-				// complete configuration parameters
+				// Search Configuration
 				search: {
 					maxAge: 86400000, // Expiration time, the default one day
 					paths: "auto",
@@ -55,7 +55,13 @@
 					hideOtherSidebarContent: false, // whether or not to hide other sidebar content
 				},
 
-				// Mermaid Plugin
+				// Pagination Configuration
+				pagination: {
+					crossChapter: true,
+					crossChapterText: true,
+				},
+
+				// Mermaid Plugin Configuration
 				markdown: {
 					renderer: {
 						code: function (code, lang) {
