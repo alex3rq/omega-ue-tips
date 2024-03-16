@@ -31,6 +31,5 @@
 You can download the Lyra Game Sample from the Epic Games Launcher, by clicking the Samples tab and navigating to Lyra Game Sample, or by clicking on the Marketplace tab and typing "Lyra" into the Search field.
 [Lyra Sample Game on Epic Marketplace](https://www.unrealengine.com/marketplace/en-US/product/lyra)
 
-### Next steps <!-- {docsify-ignore} -->
-
-After installing Lyra, start by creating a new [Game Feature Plugin](/lyra/game-feature-plugin).
+> This is a very good and quick introduction to: <br>
+> **[How to create a new Game Feature Plugin and Experience in Lyra](https://dev.epicgames.com/community/learning/tutorials/rdW2/unreal-engine-how-to-create-a-new-game-feature-plugin-and-experience-in-lyra)**
