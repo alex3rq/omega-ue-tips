@@ -23,8 +23,10 @@
 7. Set the class to `ABP_UnarmedAnimLayers` and for the `false` execution node `ABP_UnarmedAnimLayers_Feminine`
 ![Anim Class Layers](lyra-images/lyra-character-anim-layer.jpg)
 
-Lastly in the Viewport, select the `Mesh` and change the `Location Z value` to -88 to reposition the pivot to the base of the object.
+In the Viewport, select the `Mesh` and change the `Location Z value` to -88 to reposition the pivot to the base of the object.
 ![Change Mesh Pivot](lyra-images/lyra-character-mesh-pivot.jpg)
+
+Lastly go to the `Class Defaults` and under `Animation > Anim Class` set the default to `ABP_Mannequin_Base`.
 
 With these changes the character is ready.
 

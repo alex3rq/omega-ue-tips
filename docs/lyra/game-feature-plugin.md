@@ -31,6 +31,28 @@ You can add new features, gameplay mechanics, or even entire game modes without 
 
 ![Create new plugin](lyra-images/create-new-plugin.jpg)
 
+## Setting up the Game Feature
+
+1. Under `Actions` add an item to `Add Input Mapping`.
+2. Expand the item and select `IMC_Default`.
+3. Next under `Game Feature > Asset Manager` add 3 elements.
+4. Expand the first one and set it to:
+   * Primary Asset Type: `LyraExperienceDefinition`
+   * Asset Base Clas: `LyraExperienceDefinition`
+   * Has Blueprint Classes: [x] checked
+   * Directories: Add an entry and set it to your plugin's folder.
+5. Next set it to:
+   * Primary Asset Type: `LyraUserFacingExperienceDefinition`
+   * Asset Base Clas: `LyraUserFacingExperienceDefinition`
+   * Has Blueprint Classes: [x] checked
+   * Directories: Add an entry and set it to your plugin's folder.
+6. Lastly for the Map set it to:
+   * Primary Asset Type: `Map`
+   * Asset Base Clas: `World`
+   * Directories: Add an entry and set it to the `Maps` folder inside your plugin.
+
+> **Note:** You can set these before creating them but be sure to save them in the correct location.
+
 ## Resources
 
 [Unreal official documentation for Game Features and Modular Gameplay](https://docs.unrealengine.com/5.3/en-US/game-features-and-modular-gameplay-in-unreal-engine/)
